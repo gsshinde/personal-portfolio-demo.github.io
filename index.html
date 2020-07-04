@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en" data-theme='pink'>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/icon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gajanan Shinde - Web and UI Developer - Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha256-GqiEX9BuR1rv5zPU5Vs2qS/NSHl1BJyBcjQYJ6ycwD4=" crossorigin="anonymous" />
+</head>
+
+<body onload="loaderFunction()">
+    <div class="loader-container">
+        <div id="img1" class="img"></div>
+        <div id="img2" class="img"></div>
+        <div id="img3" class="img"></div>
+        <div id="img4" class="img"></div>
+        <div id="img5" class="img"></div>
+    </div>
+    <div class="icon-bar">
+        <div class="color-palette">
+            <a class="pink"><i class="fa fa-paint-brush"></i></a>
+            <a class="purple"><i class="fa fa-paint-brush"></i></a>
+            <a class="orange"><i class="fa fa-paint-brush"></i></a>
+            <a class="green"><i class="fa fa-paint-brush"></i></a>
+            <a class="blue"><i class="fa fa-paint-brush"></i></a>
+        </div>
+        <div class="right-arrow">
+            <span class="fa fa-angle-double-right"></span>
+        </div>
+    </div>
+
+    <div class="nav-menu">
+        <nav>
+            <div class="main-logo">
+                <a href="index.html#home">
+                    <div class="logo">S</div>
+                </a>
+                <div class="logo-inner">
+                    <p class="dev-name">Gajanan Shinde</p class="dev-name"> <br>
+                    <p class="dev-des">WEB & UI DEVELOPER</p>
+                </div>
+            </div>
+            <ul class="nav-links">
+                <li class="nav-link"><a data-after="Home" class="link" href="#">Home</a></li>
+                <li class="nav-link"><a data-after="About" class="link" href="index.html#about">About</a></li>
+                <li class="nav-link"><a data-after="Blog" class="link" href="index.html#blog">Blog</a></li>
+                <li class="nav-link"><a data-after="Services" class="link" href="index.html#services">Services</a></li>
+                <li class="nav-link"><a data-after="Contact" class="link" href="index.html#contact">Contact</a></li>
+
+            </ul>
+            <div class="hamburger">
+                <div class="line line1"></div>
+                <div class="line line2"></div>
+                <div class="line line3"></div>
+            </div>
+        </nav>
+    </div>
+    <main id="home">
+        <section class="showcase">
+            <div class="banner-img">
+
+            </div>
+            <div class="dev-intro">
+                <div class="main-info">
+                    <div class="hey">
+                        <h3>Hey</h3>
+                        <p class="circle1"></p>
+                        <p class="circle2"></p>
+                        <p class="circle3"></p>
+                    </div>
+                    <div class="banner-dev-name">I am Gajanan</div>
+                    <span class="txt-type banner-dev-des" data-wait="1000" data-words='["SOFTWARE DEVELOPER", "UI AND FRONT-END DEVELOPER", "PROFESSIONAL CREATOR"]'></span>
+                    <!-- <div class="banner-dev-des">SENIOR SOFTWARE DEVELOPER</div> -->
+                    <div class="home-button">
+                        <a href="index.html#contact" class="primary-btn">HIRE ME</a href="index.html#contact">
+                        <button class="secondary-btn">GET CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-me" data-aos="zoom-in" data-aos-delay="200">
+                <div class="inner-about">
+                    <h3>A Few words about me</h3>
+                    <img src="img/about.png">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi vel sint illo nam similique adipisci fugiat eius veritatis exercitationem?
+                    </p>
+                </div>
+            </div>
+            <div class="timeline" data-aos="fade-left" data-aos-delay="200">
+                <ul>
+                    <li>
+                        <div class="content">
+                            <h3>Tata Consultancy Services</h3>
+                            <p>Senior Software Developer - Business Web Apps</p>
+                        </div>
+                        <div class="time">
+                            <h4>Jul 2019 - Jun 2020</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Hoerbiger Pune - India</h3>
+                            <p>Software Developer - Mechanical Web Apps</p>
+                        </div>
+                        <div class="time">
+                            <h4>Aug 2018 - May 2019</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Maersk GSC Pune - India</h3>
+                            <p>Junior Software Developer - Web Applications</p>
+                        </div>
+                        <div class="time">
+                            <h4>Feb 2017 - Aug 2018</h4>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="content">
+                            <h3>Trivia Softwares</h3>
+                            <p>Junior Software Developer - ERP Systems</p>
+                        </div>
+                        <div class="time">
+                            <h4>Jan 2016 - Nov 2016</h4>
+                        </div>
+                    </li>
+                    <style style="clear: both;"></style>
+                </ul>
+            </div>
+        </section>
+        <section id="blog">
+            <div class="blog-content">
+                <div class="blog-left">
+                    <div class="blog-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="blog-top">
+                            <img src="img/blog1.jpg">
+                            <div class="blog-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                        </div>
+                        <div class="blog-bottom">
+                            <h2>Is global warming affecting our world, can we take it seriously?</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto voluptatem rerum culpa. Error accusantium officiis repellendus libero beatae alias dolor repellat natus perferendis aut.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="blog-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="blog-top">
+                            <img src="img/blog2.jpg">
+                            <div class="blog-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                        </div>
+                        <div class="blog-bottom">
+                            <h2>Front end developement need more efforts to make beautiful designs.</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto voluptatem rerum culpa. Error accusantium officiis repellendus libero beatae alias dolor repellat natus perferendis aut.</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="blog-item" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="blog-top">
+                            <img src="img/blog3.jpg">
+                            <div class="blog-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                        </div>
+                        <div class="blog-bottom">
+                            <h2>Abstract paintings are most attractive paintings make by artists</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam architecto voluptatem rerum culpa. Error accusantium officiis repellendus libero beatae alias dolor repellat natus perferendis aut.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-right">
+                    <h2>Features</h2>
+                    <div class="features">
+                        <div data-aos="fade-left" data-aos-delay="200">
+                            <span>Software</span>
+                            <span>(12)</span>
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="300">
+                            <span>Lifestyle</span>
+                            <span>(2)</span>
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="400">
+                            <span>Foods</span>
+                            <span>(7)</span>
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="500">
+                            <span>Entertainment</span>
+                            <span>(45)</span>
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="600">
+                            <span>Travel</span>
+                            <span>(9)</span>
+                        </div>
+                        <div data-aos="fade-left" data-aos-delay="700">
+                            <span>Technology</span>
+                            <span>(77)</span>
+                        </div>
+                    </div>
+                    <h2>Popular Posts</h2>
+                    <div class="popular-post">
+                        <div class="post-item" data-aos="flip-up" data-aos-delay="300">
+                            <div>
+                                <img src="img/post1.jpg">
+                            </div>
+                            <div class="post-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                            <h4>Gradient and background colors are awesome, create yourself one!</h4>
+                        </div>
+                        <div class="post-item" data-aos="flip-up" data-aos-delay="500">
+                            <div>
+                                <img src="img/post2.jpg">
+                            </div>
+                            <div class="post-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                            <h4>Fineset product maid by Apple Inc - Iphones, Ipad, Airpods, Mac</h4>
+                        </div>
+                        <div class="post-item" data-aos="flip-up" data-aos-delay="700">
+                            <div>
+                                <img src="img/post3.jpg">
+                            </div>
+                            <div class="post-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                            <h4>Popuar Portfolio of some of developer - checkout for your reference</h4>
+                        </div>
+                        <div class="post-item" data-aos="flip-up" data-aos-delay="900">
+                            <div>
+                                <img src="img/post4.jpg">
+                            </div>
+                            <div class="post-top-info">
+                                <span>Admin</span> |
+                                <span>29 Jul 2020</span> |
+                                <span>2 Comments</span>
+                            </div>
+                            <h4>Learn, how to create abstract paintings at home with little efforts</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class="cards" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card">
+                    <h3>Web Developer</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, maxime.</p>
+                </div>
+                <div class="card">
+                    <h3>Web Designing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, maxime.</p>
+                </div>
+                <div class="card">
+                    <h3>Database Management</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, maxime.</p>
+                </div>
+                <div class="card">
+                    <h3>Data Analytics</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, maxime.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h1>Contact Me !</h1>
+            <div class="contact-us" data-aos="zoom-in" data-aos-delay="100">
+                <div class="contact-form">
+                    <div class="contact-name">
+                        <div class="first-name">
+                            <input type="text" placeholder="First Name">
+                        </div>
+                        <div class="last-name">
+                            <input type="text" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="contact-eamil">
+                        <input type="text" placeholder="Email">
+                    </div>
+                    <div class="contact-message">
+                        <textarea cols="3" rows="2" placeholder="Message"></textarea>
+                    </div>
+                    <div class="form-button">
+                        <button class="btn">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="footer">
+            <div class="footer">
+                <div class="about-us" data-aos="zoom-in" data-aos-delay="100">
+                    <h2>About Us</h2>
+                    <div class="about-data">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates voluptas possimus obcaecati consequatur, mollitia debitis maiores similique in suscipit. Error dignissimos totam necessitatibus, velit fuga sequi similique beatae nostrum quod?
+
+                        </p>
+                    </div>
+                </div>
+                <div class="newsletter" data-aos="zoom-in" data-aos-delay="100">
+                    <h2>Newsletter</h2>
+                    <div class="news-form">
+                        <input type="text" placeholder="Email">
+                        <button class="btn">Subscribe</button>
+                    </div>
+                </div>
+                <div class="instagram" data-aos="zoom-in" data-aos-delay="100">
+                    <h2>Instagram</h2>
+                    <div class="instagram-data">
+                        <div class="insta-img">
+                            <img src="img/insta1.jpg">
+                        </div>
+                        <div class="insta-img">
+                            <img src="img/insta2.jpg">
+                        </div>
+                        <div class="insta-img">
+                            <img src="img/insta3.jpg">
+                        </div>
+                        <div class="insta-img">
+                            <img src="img/insta4.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="social" data-aos="zoom-in" data-aos-delay="100">
+                    <h2>Social</h2>
+                    <div class="social-data">
+                        <div class="social-icons">
+                            <span class="fa fa-facebook fa-2x"></span>
+                        </div>
+                        <div class="social-icons">
+                            <span class="fa fa-twitter fa-2x"></span>
+                        </div>
+                        <div class="social-icons">
+                            <span class="fa fa-linkedin fa-2x"></span>
+                        </div>
+                        <div class="social-icons">
+                            <span class="fa fa-youtube fa-2x"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha256-pQBbLkFHcP1cy0C8IhoSdxlm0CtcH5yJ2ki9jjgR03c=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script>
+        const loader = document.querySelector('.loader-container');
+        function loaderFunction(){
+            setTimeout(() => {
+                loader.style.display = 'none';    
+            }, 1000);            
+        }
+    </script>
+</body>
+
+</html>
