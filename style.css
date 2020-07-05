@@ -190,6 +190,10 @@ html[data-theme='blue'] {
     --bg-textbox: 0 0 4px 1px #1477ed;
 }
 
+main {
+    width: fit-content;
+}
+
 hr {
     margin: 1rem 0;
 }
@@ -835,8 +839,8 @@ h1 {
 }
 
 #blog .blog-content .blog-left .blog-item .blog-top .blog-top-info {
-    background: var(--bg);
-    color: white;
+    background: lightgray;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-size: 0.8rem;
     text-transform: uppercase;
@@ -1374,7 +1378,7 @@ input[type=text]:hover {
         overflow-x: hidden;
     }
     #footer {
-        height: 135vh;
+        height: 110vh;
     }
     #footer .instagram .instagram-data>div {
         width: 200px !important;
@@ -1388,15 +1392,19 @@ input[type=text]:hover {
         height: 460px;
         margin-top: 1rem;
     }
+    #contact {
+        justify-content: center !important;
+        padding-top: 0 !important;
+    }
     #contact .contact-us .contact-form .contact-name {
         grid-template-columns: 1fr;
         grid-gap: 1.12rem
     }
     #blog {
-        height: 550vh !important;
+        height: 450vh !important;
     }
     #blog:after {
-        height: 550vh !important;
+        height: 450vh !important;
     }
     #blog .blog-content {
         grid-template-columns: 1fr !important;
@@ -1428,13 +1436,13 @@ input[type=text]:hover {
         align-items: center !important;
     }
     #about {
-        height: 200vh !important;
+        height: 180vh !important;
         display: flex !important;
         flex-direction: column !important;
-        justify-content: space-between !important;
+        justify-content: center !important;
     }
     #about:after {
-        height: 200vh !important;
+        height: 180vh !important;
     }
     #about .about-me {
         width: 100% !important;
@@ -1445,11 +1453,11 @@ input[type=text]:hover {
         width: 100% !important;
     }
     #services {
-        height: 310vh !important;
+        height: 265vh !important;
         padding-top: 7rem !important;
     }
     #services:after {
-        height: 310vh !important;
+        height: 265vh !important;
     }
     #services .cards {
         display: flex !important;
@@ -1463,8 +1471,10 @@ input[type=text]:hover {
         margin-top: 1.5rem !important;
     }
     .timeline {
-        width: 80% !important;
-        margin-left: 45px !important;
+        width: 90% !important;
+    }
+    .timeline ul li .content {
+        padding-bottom: 1rem;
     }
     .timeline:before {
         left: 0% !important;
